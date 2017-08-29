@@ -65,10 +65,8 @@ public class MessageController {
 				if (messageList != null && messageList.size() > 0) {
 					messageResponse.setMessageList(messageList);
 				} else {
-					System.out.println("---In Else Error Part---");
 					errorMessage = new ErrorMessage();
-					errorMessage.setInternalMessage("Message list is empty");
-					errorMessage.setDescription("No Messages");
+					errorMessage.setDescription("Message List is Empty for the Type" + messageType);
 					messageResponse.setError(errorMessage);
 					messageResponse.setStatusCode(HttpStatus.OK.value());
 
@@ -91,19 +89,37 @@ public class MessageController {
 	 */
 	@CrossOrigin
 	@RequestMapping(method = RequestMethod.POST, value = "/v1/messages")
-	public void storeMessages(@RequestBody MessageRequest messageRequest) {
-		System.out.println("-----Inside Store Messages------");
+	public MessageResponse storeMessages(@RequestBody MessageRequest messageRequest) {
+		MessageResponse messageResponse = new MessageResponse();
+		ErrorMessage errorMessage = null;
 		try {
 			if (messageRequest != null && messageRequest.getMessageList() != null) {
 				if (messageRequest.getMessageList().size() > 0) {
-					messageService.storeMessages(messageRequest.getMessageList());
+					// messageService.storeMessages(messageRequest.getMessageList());
+					messageService.saveMessages(messageRequest.getMessageList());
+				} else {
+					errorMessage = new ErrorMessage();
+					errorMessage.setDescription("No messages to post - please check your request");
+					errorMessage.setErrorMessage("Problem in the request");
+					messageResponse.setError(errorMessage);
+					messageResponse.setStatusCode(HttpStatus.BAD_REQUEST.value());
+					messageResponse.setValidRequest(false);
 				}
+
+			} else {
+				errorMessage = new ErrorMessage();
+				errorMessage.setDescription("Please check your request");
+				errorMessage.setErrorMessage("Problem in the request");
+				messageResponse.setError(errorMessage);
+				messageResponse.setStatusCode(HttpStatus.BAD_REQUEST.value());
+				messageResponse.setValidRequest(false);
 
 			}
 		} catch (Exception e) {
 			logger.debug("Exception In" + this.getClass().getName() + "Method:storeMessages" + e.getMessage());
 		}
 
+		return messageResponse;
 	}
 
 	/**

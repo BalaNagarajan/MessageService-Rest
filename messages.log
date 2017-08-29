@@ -1,0 +1,326 @@
+2017-08-29 02:43:07 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 6504 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 02:43:07 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 02:43:07 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 02:43:07 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 02:43:07 CDT 2017]; root of context hierarchy
+2017-08-29 02:43:07 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 02:43:07 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 02:43:08 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 02:43:08 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 02:43:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 02:43:08 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 02:43:08 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 02:43:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 02:43:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 02:43:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 02:43:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 02:43:09 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 02:43:09 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 02:43:09 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.43 seconds (JVM running for 3.154)
+2017-08-29 02:43:23 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 02:44:55 [http-nio-8080-exec-7] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:ORANGE
+2017-08-29 02:45:02 [http-nio-8080-exec-8] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:BLUE
+2017-08-29 02:45:50 [http-nio-8080-exec-9] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 02:52:14 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 02:52:14 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 02:43:07 CDT 2017]; root of context hierarchy
+2017-08-29 02:52:14 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 07:34:06 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 1956 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 07:34:06 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 07:34:06 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 07:34:06 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 07:34:06 CDT 2017]; root of context hierarchy
+2017-08-29 07:34:06 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 07:34:07 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 07:34:07 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 07:34:07 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 07:34:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 07:34:07 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 07:34:08 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 07:34:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 07:34:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 07:34:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 07:34:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 07:34:08 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 07:34:08 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 07:34:08 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.921 seconds (JVM running for 4.158)
+2017-08-29 07:34:47 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 07:34:52 [http-nio-8080-exec-2] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 07:35:11 [http-nio-8080-exec-4] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 07:35:31 [http-nio-8080-exec-6] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 07:35:39 [http-nio-8080-exec-8] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 10:33:18 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 10:33:18 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 07:34:06 CDT 2017]; root of context hierarchy
+2017-08-29 10:33:18 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 10:34:30 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 1036 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 10:34:30 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 10:34:30 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 10:34:30 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 10:34:30 CDT 2017]; root of context hierarchy
+2017-08-29 10:34:30 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 10:34:31 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 10:34:31 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 10:34:31 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 10:34:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 10:34:32 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 10:34:32 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 10:34:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 10:34:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 10:34:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 10:34:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 10:34:32 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 10:34:32 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 10:34:32 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.498 seconds (JVM running for 3.12)
+2017-08-29 10:34:40 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 10:34:48 [http-nio-8080-exec-2] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 10:34:57 [http-nio-8080-exec-3] DEBUG c.j.s.s.impl.MessageServiceImpl - Message Type Inclass com.javacircle.soa.service.impl.MessageServiceImplprocessMessageByType():->RED
+2017-08-29 10:34:57 [http-nio-8080-exec-3] DEBUG c.j.s.s.impl.MessageServiceImpl - Removed Message from the QueueMessage [message=Great Value, messageType=RED, messagePriority=3]
+2017-08-29 10:35:00 [http-nio-8080-exec-4] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 10:35:03 [http-nio-8080-exec-5] DEBUG c.j.s.s.impl.MessageServiceImpl - Message Type Inclass com.javacircle.soa.service.impl.MessageServiceImplprocessMessageByType():->RED
+2017-08-29 10:35:03 [http-nio-8080-exec-5] DEBUG c.j.s.s.impl.MessageServiceImpl - Removed Message from the QueueMessage [message=Zero Balance, messageType=RED, messagePriority=3]
+2017-08-29 10:35:06 [http-nio-8080-exec-6] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 10:36:07 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 10:36:07 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 10:34:30 CDT 2017]; root of context hierarchy
+2017-08-29 10:36:07 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 10:37:13 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 11544 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 10:37:13 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 10:37:13 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 10:37:13 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 10:37:13 CDT 2017]; root of context hierarchy
+2017-08-29 10:37:13 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 10:37:14 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 10:37:14 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 10:37:14 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 10:37:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 10:37:14 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 10:37:14 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 10:37:14 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 10:37:14 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 10:37:14 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 10:37:14 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 10:37:15 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 10:37:15 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 10:37:15 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.456 seconds (JVM running for 3.079)
+2017-08-29 10:37:26 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 10:38:04 [http-nio-8080-exec-3] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 10:44:54 [http-nio-8080-exec-5] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:BLUE
+2017-08-29 10:45:18 [http-nio-8080-exec-6] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:YELLOW
+2017-08-29 10:45:59 [http-nio-8080-exec-8] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 10:46:16 [http-nio-8080-exec-9] DEBUG c.j.s.s.impl.MessageServiceImpl - Message Type Inclass com.javacircle.soa.service.impl.MessageServiceImplprocessMessageByType():->RED
+2017-08-29 10:46:16 [http-nio-8080-exec-9] DEBUG c.j.s.s.impl.MessageServiceImpl - Removed Message from the QueueMessage [message=Great Value, messageType=RED, messagePriority=3]
+2017-08-29 10:46:31 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 10:46:31 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 10:37:13 CDT 2017]; root of context hierarchy
+2017-08-29 10:46:31 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 15:00:45 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 10788 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 15:00:45 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 15:00:45 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 15:00:45 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:00:45 CDT 2017]; root of context hierarchy
+2017-08-29 15:00:45 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 15:00:46 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 15:00:46 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 15:00:46 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 15:00:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 15:00:46 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 15:00:47 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 15:00:47 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 15:00:47 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 15:00:47 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 15:00:47 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 15:00:47 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 15:00:47 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 15:00:47 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.515 seconds (JVM running for 3.329)
+2017-08-29 15:01:48 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 15:01:53 [http-nio-8080-exec-2] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 15:02:09 [http-nio-8080-exec-3] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:BLUE
+2017-08-29 15:02:23 [http-nio-8080-exec-4] DEBUG c.j.s.s.impl.MessageServiceImpl - Message Type Inclass com.javacircle.soa.service.impl.MessageServiceImplprocessMessageByType():->BLUE
+2017-08-29 15:02:23 [http-nio-8080-exec-4] DEBUG c.j.s.s.impl.MessageServiceImpl - Removed Message from the QueueMessage [message=Good Morning, messageType=BLUE, messagePriority=2]
+2017-08-29 15:03:22 [http-nio-8080-exec-6] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 15:03:52 [http-nio-8080-exec-7] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:YELLOW
+2017-08-29 15:04:09 [http-nio-8080-exec-8] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:BLUE
+2017-08-29 15:04:34 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 15:04:34 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:00:45 CDT 2017]; root of context hierarchy
+2017-08-29 15:04:34 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 15:05:12 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 6372 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 15:05:12 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 15:05:12 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 15:05:12 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:05:12 CDT 2017]; root of context hierarchy
+2017-08-29 15:05:12 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 15:05:13 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 15:05:13 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 15:05:13 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 15:05:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 15:05:13 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 15:05:13 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 15:05:13 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 15:05:13 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 15:05:13 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 15:05:13 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 15:05:14 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 15:05:14 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 15:05:14 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.408 seconds (JVM running for 3.037)
+2017-08-29 15:05:34 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 15:06:00 [http-nio-8080-exec-3] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 15:08:23 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 15:08:23 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:05:12 CDT 2017]; root of context hierarchy
+2017-08-29 15:08:23 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 15:08:50 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 7484 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 15:08:50 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 15:08:50 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 15:08:50 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:08:50 CDT 2017]; root of context hierarchy
+2017-08-29 15:08:50 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 15:08:51 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 15:08:51 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 15:08:51 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 15:08:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 15:08:51 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 15:08:51 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 15:08:51 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 15:08:51 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 15:08:51 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 15:08:51 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 15:08:52 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 15:08:52 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 15:08:52 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.659 seconds (JVM running for 3.327)
+2017-08-29 15:09:08 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 15:10:01 [http-nio-8080-exec-3] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 15:11:51 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 15:11:51 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:08:50 CDT 2017]; root of context hierarchy
+2017-08-29 15:11:51 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 15:12:32 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 2228 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 15:12:32 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 15:12:32 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 15:12:32 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:12:32 CDT 2017]; root of context hierarchy
+2017-08-29 15:12:33 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 15:12:33 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 15:12:34 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 15:12:34 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 15:12:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 15:12:34 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 15:12:34 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 15:12:34 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 15:12:34 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 15:12:34 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 15:12:34 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 15:12:34 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 15:12:35 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 15:12:35 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.583 seconds (JVM running for 3.202)
+2017-08-29 15:12:46 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 15:20:16 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 15:20:16 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:12:32 CDT 2017]; root of context hierarchy
+2017-08-29 15:20:16 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 15:23:44 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 6816 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 15:23:44 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 15:23:44 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 15:23:44 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:23:44 CDT 2017]; root of context hierarchy
+2017-08-29 15:23:44 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 15:23:44 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 15:23:45 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 15:23:45 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 15:23:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 15:23:45 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 15:23:45 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 15:23:45 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 15:23:45 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 15:23:45 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 15:23:45 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 15:23:45 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 15:23:46 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 15:23:46 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.381 seconds (JVM running for 3.048)
+2017-08-29 15:24:12 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 15:24:41 [http-nio-8080-exec-3] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 15:25:03 [http-nio-8080-exec-4] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:BLUE
+2017-08-29 15:25:20 [http-nio-8080-exec-5] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:YELLOW
+2017-08-29 15:25:28 [http-nio-8080-exec-6] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 15:25:42 [http-nio-8080-exec-7] DEBUG c.j.s.s.impl.MessageServiceImpl - Message Type Inclass com.javacircle.soa.service.impl.MessageServiceImplprocessMessageByType():->RED
+2017-08-29 15:25:42 [http-nio-8080-exec-7] DEBUG c.j.s.s.impl.MessageServiceImpl - Removed Message from the QueueMessage [message=Hello All, messageType=RED, messagePriority=3]
+2017-08-29 15:25:47 [http-nio-8080-exec-8] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 15:26:01 [http-nio-8080-exec-9] DEBUG c.j.s.s.impl.MessageServiceImpl - Message Type Inclass com.javacircle.soa.service.impl.MessageServiceImplprocessMessageByType():->RED
+2017-08-29 15:26:01 [http-nio-8080-exec-9] DEBUG c.j.s.s.impl.MessageServiceImpl - Removed Message from the QueueMessage [message=Great Value, messageType=RED, messagePriority=3]
+2017-08-29 15:26:07 [http-nio-8080-exec-10] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 15:26:12 [http-nio-8080-exec-1] DEBUG c.j.s.s.impl.MessageServiceImpl - Message Type Inclass com.javacircle.soa.service.impl.MessageServiceImplprocessMessageByType():->RED
+2017-08-29 15:26:12 [http-nio-8080-exec-1] DEBUG c.j.s.s.impl.MessageServiceImpl - Removed Message from the QueueMessage [message=Simply Great, messageType=RED, messagePriority=5]
+2017-08-29 15:26:17 [http-nio-8080-exec-2] DEBUG c.j.soa.controller.MessageController - Message Type In getMessage()---:RED
+2017-08-29 16:47:59 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 16:47:59 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 15:23:44 CDT 2017]; root of context hierarchy
+2017-08-29 16:47:59 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 16:49:16 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 10072 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 16:49:16 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 16:49:16 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 16:49:16 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 16:49:16 CDT 2017]; root of context hierarchy
+2017-08-29 16:49:16 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 16:49:17 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 16:49:17 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 16:49:17 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 16:49:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 16:49:17 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 16:49:17 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 16:49:17 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 16:49:17 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 16:49:17 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 16:49:17 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 16:49:18 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 16:49:18 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 16:49:18 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.386 seconds (JVM running for 3.069)
+2017-08-29 16:54:27 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 16:54:27 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 16:49:16 CDT 2017]; root of context hierarchy
+2017-08-29 16:54:27 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 16:56:07 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 6276 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 16:56:07 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 16:56:07 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 16:56:07 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 16:56:07 CDT 2017]; root of context hierarchy
+2017-08-29 16:56:08 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 16:56:08 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 16:56:09 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 16:56:09 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 16:56:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 16:56:09 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 16:56:09 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 16:56:09 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 16:56:09 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 16:56:09 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 16:56:09 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 16:56:09 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 16:56:09 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 16:56:09 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.411 seconds (JVM running for 3.067)
+2017-08-29 17:04:09 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 17:04:09 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 16:56:07 CDT 2017]; root of context hierarchy
+2017-08-29 17:04:09 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 17:04:38 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 10660 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 17:04:38 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 17:04:38 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 17:04:38 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 17:04:38 CDT 2017]; root of context hierarchy
+2017-08-29 17:04:38 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 17:04:39 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 17:04:39 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 17:04:39 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 17:04:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 17:04:40 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 17:04:40 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 17:04:40 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 17:04:40 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 17:04:40 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 17:04:40 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 17:04:40 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 17:04:40 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 17:04:40 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.629 seconds (JVM running for 3.283)
+2017-08-29 17:04:49 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 17:11:39 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 17:11:39 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 17:04:38 CDT 2017]; root of context hierarchy
+2017-08-29 17:11:39 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-08-29 17:12:10 [main] INFO  com.javacircle.soa.ServiceApp - Starting ServiceApp on USXWVGWN90G3NV8 with PID 10684 (C:\Fitch\MessageService-Rest\target\classes started by bnagaraj in C:\Fitch\MessageService-Rest)
+2017-08-29 17:12:10 [main] DEBUG com.javacircle.soa.ServiceApp - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2017-08-29 17:12:10 [main] INFO  com.javacircle.soa.ServiceApp - No active profile set, falling back to default profiles: default
+2017-08-29 17:12:10 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 17:12:10 CDT 2017]; root of context hierarchy
+2017-08-29 17:12:10 [background-preinit] INFO  org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2017-08-29 17:12:11 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-29 17:12:11 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-08-29 17:12:11 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2017-08-29 17:12:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-08-29 17:12:11 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-08-29 17:12:11 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-29 17:12:11 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-29 17:12:11 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-29 17:12:11 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-29 17:12:11 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-29 17:12:12 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-08-29 17:12:12 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-08-29 17:12:12 [main] INFO  com.javacircle.soa.ServiceApp - Started ServiceApp in 2.488 seconds (JVM running for 3.143)
+2017-08-29 17:12:28 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-29 17:13:26 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2017-08-29 17:13:26 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3246fb96: startup date [Tue Aug 29 17:12:10 CDT 2017]; root of context hierarchy
+2017-08-29 17:13:26 [RMI TCP Connection(2)-192.168.1.71] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown

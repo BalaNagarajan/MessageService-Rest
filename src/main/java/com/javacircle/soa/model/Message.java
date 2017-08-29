@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Message {
 
+	
+
 	public Message() {
 
 	}
@@ -80,6 +82,12 @@ public class Message {
 	@JsonProperty("message")
 	public void setMessage(String message) {
 		this.message = message;
+	}
+	
+	@Override
+	public String toString() {
+		return "Message [message=" + message + ", messageType=" + messageType + ", messagePriority=" + messagePriority
+				+ "]";
 	}
 
 }

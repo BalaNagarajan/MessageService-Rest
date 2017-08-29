@@ -1,21 +1,13 @@
 package com.javacircle.soa.response;
 
-import org.springframework.http.HttpStatus;
+
 
 public class ServiceResponse {
 
-	private HttpStatus httpStatus;
 	private boolean isValidRequest;
 	private int statusCode;
 
-	public HttpStatus getHttpStatus() {
-		return httpStatus;
-	}
-
-	public void setHttpStatus(HttpStatus httpStatus) {
-		this.httpStatus = httpStatus;
-	}
-
+	
 	public boolean isValidRequest() {
 		return isValidRequest;
 	}
