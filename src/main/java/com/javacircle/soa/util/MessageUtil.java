@@ -97,22 +97,17 @@ public class MessageUtil {
 				if (index == 0) {
 					priorityTemp = priorityValue;
 				}
-				System.out.println("----Priority Temp----" + priorityTemp);
-				System.out.println("----Priority Value----" + priorityValue);
-
+			
 				if (priorityTemp > priorityValue) {
 					pointer = index;
 					int temp = priorityValue;
 					priorityTemp = temp;
-					System.out.println("----Inner Priority Temp----" + priorityTemp);
 				}
 
 				index++;
 
 			}
 		}
-
-		System.out.println("-----Pointer Value-----" + pointer);
 		return pointer;
 
 	}

@@ -96,7 +96,7 @@ public class MessageServiceImpl implements MessageService {
 		List<Message> messageList = null;
 		try {
 			if (!StringUtils.isEmpty(messageType)) {
-				logger.debug("Message Type In" + this.getClass() + "processMessageByType():->" + messageType);
+				logger.debug("Message Type In" + this.getClass() + "processMessageByType():-> " + messageType);
 				if (MessageServiceImpl.messageMap != null && !MessageServiceImpl.messageMap.isEmpty()) {
 					messageList = messageMap.get(messageType);
 					if (messageList != null && messageList.size() > 0) {
@@ -126,7 +126,7 @@ public class MessageServiceImpl implements MessageService {
 				if (MessageServiceImpl.messageMap != null && !MessageServiceImpl.messageMap.isEmpty()) {
 					messageList = messageMap.get(messageType);
 				} else {
-					logger.debug("Message List is empty for the type:->" + messageType);
+					logger.debug("Message List is empty for the type:-> " + messageType);
 				}
 
 			}

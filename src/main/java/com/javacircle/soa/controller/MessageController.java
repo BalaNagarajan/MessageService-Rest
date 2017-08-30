@@ -97,6 +97,8 @@ public class MessageController {
 				if (messageRequest.getMessageList().size() > 0) {
 					// messageService.storeMessages(messageRequest.getMessageList());
 					messageService.saveMessages(messageRequest.getMessageList());
+					messageResponse.setStatusCode(200);
+					messageResponse.setValidRequest(true);
 				} else {
 					errorMessage = new ErrorMessage();
 					errorMessage.setDescription("No messages to post - please check your request");
@@ -136,11 +138,21 @@ public class MessageController {
 	@RequestMapping(method = RequestMethod.DELETE, value = "/v1/messages/{messageType}")
 	public MessageResponse processMessage(@PathVariable(name = "messageType") String messageType) {
 		MessageResponse messageResponse = new MessageResponse();
+		ErrorMessage errorMessage = null;
 		try {
 			if (!StringUtils.isEmpty(messageType)) {
-				System.out.println("The Message Type Is----" + messageType);
 				Message message = messageService.processMessageByType(messageType);
-				messageResponse.setMessage(message);
+				if (message != null && !StringUtils.isEmpty(message.getMessage())) {
+					messageResponse.setMessage(message);
+					messageResponse.setStatusCode(200);
+					messageResponse.setValidRequest(true);
+				} else {
+					errorMessage = new ErrorMessage();
+					errorMessage.setDescription("Message List is Empty for the Type" + messageType);
+					messageResponse.setError(errorMessage);
+					messageResponse.setStatusCode(HttpStatus.OK.value());
+
+				}
 			}
 		} catch (Exception e) {
 			logger.debug("Exception In" + this.getClass().getName() + "Method:processMessage" + e.getMessage());
