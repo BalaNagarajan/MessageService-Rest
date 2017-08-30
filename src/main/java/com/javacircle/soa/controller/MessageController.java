@@ -21,6 +21,8 @@ import com.javacircle.soa.request.MessageRequest;
 import com.javacircle.soa.response.MessageResponse;
 import com.javacircle.soa.service.MessageService;
 
+import io.swagger.annotations.ApiOperation;
+
 /**
  * This class acts as a Controller for the Message Processing Service.It accepts
  * the 'n' list of messages and stores it in the memory. Also removes the
@@ -34,6 +36,7 @@ import com.javacircle.soa.service.MessageService;
 @RestController
 @RequestMapping(value = "/api")
 @CrossOrigin
+
 public class MessageController {
 
 	/**
@@ -55,6 +58,7 @@ public class MessageController {
 	 * @return
 	 */
 	@CrossOrigin
+	@ApiOperation(value = "GetByMessageType", nickname = "MessageTypeRetrieval")
 	@RequestMapping(method = RequestMethod.GET, value = "/v1/messages/{messageType}")
 	public MessageResponse getMessage(@PathVariable(name = "messageType") String messageType) {
 		MessageResponse messageResponse = new MessageResponse();
