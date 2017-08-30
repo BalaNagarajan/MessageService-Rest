@@ -10,10 +10,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
 import com.javacircle.soa.model.Message;
-import com.javacircle.soa.model.MessageType;
 import com.javacircle.soa.service.MessageService;
 import com.javacircle.soa.util.MessageUtil;
 
@@ -54,7 +54,7 @@ public class MessageServiceImpl implements MessageService {
 	 * This method stores the list of messages in the memory. It appends the
 	 * messsages to the existing list to the corresponding message type.
 	 * 
-	 * This method uses the java8 'groupingby' to group based on MessageType.
+	 * This method uses the java8 'grouping by' to group based on MessageType.
 	 * 
 	 */
 	public void saveMessages(List<Message> messageList) {
@@ -63,8 +63,7 @@ public class MessageServiceImpl implements MessageService {
 		try {
 			// Iterating the Map to get the existing list
 			for (String key : MessageServiceImpl.messageMap.keySet()) {
-				if (MessageServiceImpl.messageMap.get(key) != null
-						&& MessageServiceImpl.messageMap.get(key).size() > 0) {
+				if (!CollectionUtils.isEmpty(MessageServiceImpl.messageMap.get(key))) {
 					// Adding all the existing list based on key
 					initialMessageList.addAll(MessageServiceImpl.messageMap.get(key));
 				}
@@ -97,7 +96,7 @@ public class MessageServiceImpl implements MessageService {
 		try {
 			if (!StringUtils.isEmpty(messageType)) {
 				logger.debug("Message Type In" + this.getClass() + "processMessageByType():-> " + messageType);
-				if (MessageServiceImpl.messageMap != null && !MessageServiceImpl.messageMap.isEmpty()) {
+				if (!CollectionUtils.isEmpty(MessageServiceImpl.messageMap)) {
 					messageList = messageMap.get(messageType);
 					if (messageList != null && messageList.size() > 0) {
 						int pointer = messageUtil.getCandidateMessage(messageList);
@@ -123,7 +122,7 @@ public class MessageServiceImpl implements MessageService {
 
 		try {
 			if (!StringUtils.isEmpty(messageType)) {
-				if (MessageServiceImpl.messageMap != null && !MessageServiceImpl.messageMap.isEmpty()) {
+				if (!CollectionUtils.isEmpty(MessageServiceImpl.messageMap)) {
 					messageList = messageMap.get(messageType);
 				} else {
 					logger.debug("Message List is empty for the type:-> " + messageType);

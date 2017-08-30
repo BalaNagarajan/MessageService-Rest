@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -62,11 +63,13 @@ public class MessageController {
 			if (!StringUtils.isEmpty(messageType)) {
 				logger.debug("Message Type In getMessage()---:" + messageType);
 				List<Message> messageList = messageService.getMessagesByType(messageType);
-				if (messageList != null && messageList.size() > 0) {
+				if (!CollectionUtils.isEmpty(messageList)) {
 					messageResponse.setMessageList(messageList);
+					messageResponse.setStatusCode(200);
+					messageResponse.setValidRequest(true);
 				} else {
 					errorMessage = new ErrorMessage();
-					errorMessage.setDescription("Message List is Empty for the Type" + messageType);
+					errorMessage.setDescription("Message List is Empty for the Type : " + messageType);
 					messageResponse.setError(errorMessage);
 					messageResponse.setStatusCode(HttpStatus.OK.value());
 
@@ -148,9 +151,10 @@ public class MessageController {
 					messageResponse.setValidRequest(true);
 				} else {
 					errorMessage = new ErrorMessage();
-					errorMessage.setDescription("Message List is Empty for the Type" + messageType);
+					errorMessage.setDescription("Message List is Empty for the Type : " + messageType);
 					messageResponse.setError(errorMessage);
 					messageResponse.setStatusCode(HttpStatus.OK.value());
+					messageResponse.setValidRequest(true);
 
 				}
 			}

@@ -1,13 +1,14 @@
 package com.javacircle.soa.response;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
-
+@JsonInclude(Include.NON_NULL)
 public class ServiceResponse {
 
 	private boolean isValidRequest;
 	private int statusCode;
 
-	
 	public boolean isValidRequest() {
 		return isValidRequest;
 	}

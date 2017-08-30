@@ -2,10 +2,13 @@ package com.javacircle.soa.response;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.javacircle.soa.model.ErrorMessage;
 import com.javacircle.soa.model.Message;
 
+@JsonInclude(Include.NON_NULL)
 public class MessageResponse extends ServiceResponse {
 
 	@JsonProperty("messageList")
